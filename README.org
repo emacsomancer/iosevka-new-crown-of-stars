@@ -1,0 +1,9 @@
+ [[./_images/(crown_of_stars).png]]
+* Description
+A new version of a customised [[https://typeof.net/Iosevka/][Iosevka]] font, [[https://github.com/emacsomancer/iosevka-crown-of-stars][Crown of Stars]], a quasi-proportioned typeface Egyptian serifs and other aesthetic and visually functional specifications.
+
+* Samples & Specimens
+An org-mode/org-roam/org-node entry, showing a mixture of Iosevka Crown of Stars for the regular variable-pitch body text, and [[https://usgraphics.com/products/berkeley-mono][Berkeley Mono]] for the monospaced fixed-pitch text (like code):
+
+[[./_images/elisp.org_set-with-iosevka-crown-of-stars-and-berkeley-mono.png]]
+
