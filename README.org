@@ -52,6 +52,8 @@ This is substantially different from the old version of Iosevka Crown of Stars, 
 
 But there are many more options than when I produced the earlier version, and a very nice web-interface [https://typeof.net/Iosevka/customizer] for doing customisations.
 
+I wanted something that was both easy to read and pleasant to look it. Interesting in the right ways. 
+
 I went through many, many more iterations (~npm run build -- contents::IosevkaCrownOfStars~) than I'd initially thought I'd need. I started with a base setting of "slab" (~egyptian) serifs, and then began making adjustments.
 
 [[./_images/quickjolly.png]]
@@ -121,6 +123,12 @@ As for the alphabetic characters, the italic versions generally close up breaks 
 [[./_images/0123456789.png]]
 
 
+* How to Use
+Follow the instructions from the main Iosevka site on building fonts: https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md
+
+Use the ~private-build-plans.toml~ file from this repo (iosevka-new-crown-of-stars) in place of the one in the instructions.
+
+If you want to tweak something, you can import the configuration on the Iosevka customiser: https://typeof.net/Iosevka/customizer
 
 # Local Variables:
 # jinx-local-words: "Elisp Iosevka kraʊn kʰa stɑ əv ˌjɔˈseβ"
