@@ -124,6 +124,10 @@ As for the alphabetic characters, the italic versions generally close up breaks 
 
 
 * How to Use
+** Download the TTFs and/or WOFF2s from the =dist= directory
+(On Linux/Unix) Unzip these into somewhere in your font path (like ~/.local/share/fonts/~) and run =fc-cache -fv= and they should be available to you.
+
+** To Build Yourself
 Follow the instructions from the main Iosevka site on building fonts: https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md
 
 Use the ~private-build-plans.toml~ file from this repo (iosevka-new-crown-of-stars) in place of the one in the instructions.
