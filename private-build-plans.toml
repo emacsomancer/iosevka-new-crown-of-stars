@@ -6,7 +6,7 @@ noCvSs = false
 exportGlyphNames = true
 
 [buildPlans.IosevkaCrownOfStars.variants.design]
-one = "base-flat-top-serif"
+one = "base-long-top-serif"
 two = "straight-neck-serifed"
 three = "flat-top-serifed"
 four = "semi-open-serifed"
@@ -116,7 +116,7 @@ lig-ltgteq = "slanted"
 lig-neq = "more-slanted-dotted"
 
 [buildPlans.IosevkaCrownOfStars.variants.italic]
-one = "base-long-top-serif"
+one = "no-base-long-top-serif"
 two = "curly-neck-serifed"
 three = "two-arcs"
 four = "closed-serifless"
@@ -288,4 +288,3 @@ angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
-
