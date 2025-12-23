@@ -12,11 +12,11 @@ Showing numerals, upper- and lower-case basic roman letters, a few accented/modi
 ** Org-mode examples
 An org-mode/org-roam/org-node entry, showing a mixture of Iosevka Crown of Stars for the regular variable-pitch body text, and [[https://usgraphics.com/products/berkeley-mono][Berkeley Mono]] for the monospaced fixed-pitch text (like code):
 
-[[./_images/elisp.org_set-with-iosevka-crown-of-stars-and-berkeley-mono\[v0.5001\].png]]
+[[./_images/elisp.org_set-with-iosevka-crown-of-stars-and-berkeley-mono_v0.5001_.png]]
 
 [viewing an org-mode/org-roam/org-node entry on Elisp, using Iosevka Crown of Stars for the variable-pitch text, Berkeley Mono for fixed pitch (and some Martian Mono for small text, though may not be visible here)]
 
-[[./_images/guix.org_set-with-iosevka-crown-of-stars-and-berkeley-mono\[v0.5001\].png]]
+[[./_images/guix.org_set-with-iosevka-crown-of-stars-and-berkeley-mono_v0.5001_.png]]
 [same, but for an entry on Guix]
 
 
