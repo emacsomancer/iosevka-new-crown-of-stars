@@ -6,7 +6,7 @@ A new version of a customised [[https://typeof.net/Iosevka/][Iosevka]] font, [[h
 ** Basic characters & symbols
 Showing numerals, upper- and lower-case basic roman letters, a few accented/modified characters, and some symbols, in both upright and italics.
 
-[[./_images/specimen\[v0.5001\]_alphabets+symbols+quirks-ragnarok.png]]
+[[./_images/specimen_v0.5001__alphabets+symbols+quirks-ragnarok.png]]
 
 
 ** Org-mode examples
