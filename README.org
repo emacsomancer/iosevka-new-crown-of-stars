@@ -1,4 +1,6 @@
  [[./_images/(crown_of_stars).png]]
+[ˌjɔˈseβ.kʰa ˈkraʊn əv ˈstɑːz] (in [[https://en.wikipedia.org/wiki/International_Phonetic_Alphabet][IPA]])
+
 * Description
 A new version of a customised [[https://typeof.net/Iosevka/][Iosevka]] font, [[https://github.com/emacsomancer/iosevka-crown-of-stars][Crown of Stars]], a quasi-proportioned typeface Egyptian serifs and other aesthetic and visually functional specifications.
 
@@ -25,3 +27,101 @@ An org-mode/org-roam/org-node entry, showing a mixture of Iosevka Crown of Stars
 [[./_images/specimen_v0.5001__idiot-omission.png]]
 [[./_images/specimen_v0.5001__oscillate-tying.png]]
 [[attachment:2025-12-23_13-02-36_redaction.png][./_images/specimen_v0.5001__vacuum-zoo-lemon-ring.png]]
+
+** Emacs settings
+All of these are being used in Emacs. Some relevant settings:
+
+#+begin_src elisp
+(set-face-attribute 'variable-pitch nil :family "Iosevka Crown of Stars" :weight 'medium :height 1.1)
+#+end_src
+
+As part of ~(custom-set-faces ...)~:
+#+begin_src elisp
+(custom-set-faces
+ ;; .....
+ '(default ((t (:slant normal :weight medium :height 110 :width normal :family "Berkeley Mono" :foreground "#F2F0EF"))))
+ '(fixed-pitch ((t (:slant normal :weight medium :height 110 :width normal :family "Berkeley Mono"))))
+
+ '(variable-pitch ((t (:family "Iosevka Crown of Stars" :weight medium :height 1.1))))
+;; .....
+ '(org-modern-label ((t (:box (:line-width (-1 . -2) :color "#000000") :underline nil :weight regular :height 0.7 :width condensed :family "Martian Mono")))))
+#+end_src
+
+* Design principles
+This is substantially different from the old version of Iosevka Crown of Stars, in a number of respects. I had failed to have (in my generated versions) all of the weights that one might want, including importantly "Medium". (Which is used as the weight in the above examples, and a bit easier to read/look at than "Regular", I find.)
+
+But there are many more options than when I produced the earlier version, and a very nice web-interface [https://typeof.net/Iosevka/customizer] for doing customisations.
+
+I went through many, many more iterations (~npm run build -- contents::IosevkaCrownOfStars~) than I'd initially thought I'd need. I started with a base setting of "slab" (~egyptian) serifs, and then began making adjustments.
+
+[[./_images/quickjolly.png]]
+
+** Some notes on the letters with respect to line heights:
+- uppercase letters stretch from baseline to topline, with "Q" and "J" having descenders reaching below base to beardline:
+  [[./_images/AJFQG.png]]
+- all of the lowercase characters in "acemnorsuvwxz" are from baseline to midline:
+  [[./_images/acemnorsuvwxz.png]]
+- all of the lowercase characters in "bdhiklt" extend full-height from base to topline:
+[[./_images/bdhiklt.png]]
+- lowercase "gpqy" don't reach above midline, but do reach below baseline:
+  [[./_images/gpqy.png]]
+- lowercase "f" and "j" stretch from topline to beardline:
+  [[./_images/fj.png]]
+
+**  Remarks on the character forms
+The uppercase Roman letters retain many but not all serifs, and often with some asymmetries (A,H,D) and uneven heights (B,M,N) and discontinuities, breakages (AGPWR). Straight horizontal and vertical strokes are are favoured in many places (A,E,F,I,M,P,R,T,U,W,Z) along with straight diagonal strokes (A,K,M,Q,V,X,W,Y). There are curves in some places, but they involve broken asymmetries (B,K,R) and stoppages of curves by vertical strokes (C,D,G,J,P,R,U), or both (Q).
+
+The italic pairs generally smooth out lines, and much more curves (compare A to /A/), and some serifs are smoothed out (/C/ vs C) or eroded (/E/ vs E; /F/ vs F) and the forms are more fluid and motioned. And inktraps and discontinuities, breaks are closed up (/K/ vs K; /P/ vs P; /Q/ vs Q; /R/ vs R; /U/ vs U). Letters sometimes become much more curvy along with slanted, involving waves; cross-bars and other things tilt (/A/ vs A; /J/ vs J; /V/ vs V; /U/ vs U; /W/ vs W; /X/ vs X; /Z/ vs Z).
+
+There are similar patterns for the lowercased roman and italics. Letters close up (/g/ vs g), simplify some strokes (/a/ vs a; /d/ vs d; /h/ vs h; /p/ vs p; /q/ vs q; /r/ vs r; /u/ vs u; /v/ vs v; /y/ vs y; /z/ vs z), but also undergo other changes, curving or twisting into vague symmetries (/f/ vs f; /t/ vs t; /x/ vs x). Further, the sporadic rigidity of the roman is expressed also in making round circles into squares, in letter-dots and punctuation, while the italic smooths these back into orbs:
+
+[[./_images/myknife-kjoi.png]]
+
+** Particular Crown of Stars characters
+There are a few alphabetic character that have ended up feeling, especially in their combination, characteristic of the Crown of Stars style.
+
+The asymmetric top-serifed closed 'A' and its rounded off italic counterpart '/A/', which gains serifs for sturdier feet, bucking the trend of italic loss/smoothing of serifs; similarly for 'a' and '/a/' (sans the feet).
+
+[[./_images/Aa.png]]
+
+The 'J' and '/J/' and 'Q' and '/Q/' extending below the base, with some extravagance, or looming domination of the plane.
+
+[[./_images/james.png]]
+
+The 'W' is strange and alien in some mechanical fashion, while '/W/' is less uncanny, but is sharp, wispy and frail in bits, but with the suggestion of sharp fangs rather than bows or legs.
+
+[[./_images/wight-vampire.png]]
+
+The 'g' is double-storied and broken, and the '/g/' pulled into tight knots.
+
+[[./_images/lagging-lugging.png]]
+
+The 'm,n,o,p,q' run is distinctive in the roman, particularly the bizarre 'm' with its three feet firmly planted, an alien lander. The 'n' is very different from what we might expect, lacking a left ear and with only one foot planted, the other stretching forwards to take a step. The 'p' and 'q' perhaps seem relatively unremarkable in the roman, though they play with their near symmetry, but the 'p' has an ear and serifs, and 'q' only its foot serif and tiny cut in place of p's serify ear.
+
+[[./_images/mnopq-quonpomp.png]]
+
+How this series transforms in the italic further digs into these unsettling arrangement of shapes: the 'm' in the italics raises its middle leg, as if it were ready to spring and attack. The 'n' loses any ear and its head is just a smooth dome, like a '/u/' turned on its head, were it to try to (like its roman counterpart) be trying to be creeping rightwards. The 'p' and the 'q' lose all upper adornments and kick off their single shoes, '/p/', '/q/', the latter twisting it one foot back, as if craning to look at something to its left.
+
+[[./_images/rommannppoqoque.png]]
+
+The 't' has only its cross-stroke on its right, matching its right-straighten leg; while its italic counterpart is the same, but for angling its right leg diagonally up in the air, as if it would pinch the letter to its right.
+
+[[./_images/tartdy.png]]
+
+Finally, one of the most salient forms, the 'f' extends itself down further than it should; it is a sæx knife stabbing towards the next; its italic counterpart /f/ twists into a scimitar.
+
+[[./_images/bring-a-fine-knife-if-you-fare-afrikan-falchion.png]]
+
+The numerals have some interest.
+
+The roman are relatively boxy (even when round) and sharp, and broken. And the 0 in particular has broken slash:
+
+As for the alphabetic characters, the italic versions generally close up breaks where possible (/4/ vs 4) and smooth out straight lines (/3/ vs 3) and turn straight lines into curves (/6/ vs 6; /9/ vs 9; /7/ vs 7). The italic /0/, breaking tradition, does not close up the break, but flips it over.
+
+[[./_images/0123456789.png]]
+
+
+
+# Local Variables:
+# jinx-local-words: "Elisp Iosevka kraʊn kʰa stɑ əv ˌjɔˈseβ"
+# End:
