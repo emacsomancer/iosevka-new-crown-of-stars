@@ -19,4 +19,9 @@ An org-mode/org-roam/org-node entry, showing a mixture of Iosevka Crown of Stars
 [[./_images/guix.org_set-with-iosevka-crown-of-stars-and-berkeley-mono_v0.5001_.png]]
 [same, but for an entry on Guix]
 
-
+** Some running text, in roman and italics
+[[./_images/specimen_v0.5001__aaron-chant.png]]
+[[./_images/specimen_v0.5001__cicero-icy.png]]
+[[./_images/specimen_v0.5001__idiot-omission.png]]
+[[./_images/specimen_v0.5001__oscillate-tying.png]]
+[[attachment:2025-12-23_13-02-36_redaction.png][./_images/specimen_v0.5001__vacuum-zoo-lemon-ring.png]]
