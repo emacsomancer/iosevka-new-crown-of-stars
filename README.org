@@ -116,7 +116,7 @@ Finally, one of the most salient forms, the 'f' extends itself down further than
 
 The numerals have some interest.
 
-The roman are relatively boxy (even when round) and sharp, and broken. And the 0 in particular has broken slash:
+The roman are relatively boxy (even when round) and sharp, and broken. And the 0 in particular has broken slash.
 
 As for the alphabetic characters, the italic versions generally close up breaks where possible (/4/ vs 4) and smooth out straight lines (/3/ vs 3) and turn straight lines into curves (/6/ vs 6; /9/ vs 9; /7/ vs 7). The italic /0/, breaking tradition, does not close up the break, but flips it over.
 
@@ -125,7 +125,7 @@ As for the alphabetic characters, the italic versions generally close up breaks 
 
 * How to Use
 ** Download the TTFs and/or WOFF2s from the =dist= directory
-(On Linux/Unix) Unzip these into somewhere in your font path (like ~/.local/share/fonts/~) and run =fc-cache -fv= and they should be available to you.
+(On Linux/Unix) Unzip these into somewhere in your font path (like =~/.local/share/fonts/=) and run =fc-cache -fv= and they should be available to you.
 
 ** To Build Yourself
 Follow the instructions from the main Iosevka site on building fonts: https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md
