@@ -16,7 +16,7 @@ An org-mode/org-roam/org-node entry, showing a mixture of Iosevka Crown of Stars
 
 [[./_images/elisp.org_set-with-iosevka-crown-of-stars-and-berkeley-mono_v0.5001_.png]]
 
-[viewing an org-mode/org-roam/org-node entry on Elisp, using Iosevka Crown of Stars for the variable-pitch text, Berkeley Mono for fixed pitch (and some [[https://evilmartians.com/products/martian-mono][Martian Mono]] for small text (e.g., timestamps in [[https://github.com/minad/org-modern][org-modern]], though it may not be visible here)]
+[viewing an org-mode/org-roam/org-node entry on Elisp, using Iosevka Crown of Stars for the variable-pitch text, Berkeley Mono for fixed pitch (and some [[https://evilmartians.com/products/martian-mono][Martian Mono]] for small text (e.g., timestamps in [[https://github.com/minad/org-modern][org-modern]]), though it may not be visible here)]
 
 [[./_images/guix.org_set-with-iosevka-crown-of-stars-and-berkeley-mono_v0.5001_.png]]
 [same, but for an entry on Guix]
